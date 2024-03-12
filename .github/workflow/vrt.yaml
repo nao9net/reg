@@ -18,12 +18,12 @@ jobs:
       with:
         aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        aws-region: ap-northeast-1
+        aws-region: ap-northeast-3
     - name: Install dependencies
       run: npm ci
     - name: Buid Storybook
       run: npm run storybook:build
-    - name: Run Storycap
+    - name: Run storycap
       run: npm run vrt:snapshot
     - name: Run reg-suit
       run: npm run vrt:run
