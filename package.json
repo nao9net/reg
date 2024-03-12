@@ -20,7 +20,7 @@
     "build-storybook": "storybook build",
     "test:storybook": "test-storybook",
     "storycap": "npx storycap  --serverCmd \"npx http-server storybook-static -p 6006\" http://localhost:6006",
-    "storybook:build": "build-storybook",
+    "storybook:build": "storybook build",
     "vrt:snapshot": "storycap --serverCmd \"npx http-server storybook-static -p 6006\" http://localhost:6006",
     "vrt:run": "reg-suit run"
   },
