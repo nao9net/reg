@@ -1,7 +1,7 @@
 name: Run VRT
 on: push
 env:
-  REG_NOTIFY_CLIENT_ID: ${{ secrets. REG_NOTIFY_CLIENT_ID 3}
+  REG_NOTIFY_CLIENT_ID: ${{ secrets. REG_NOTIFY_CLIENT_ID}}
   AWS_BUCKET_NAME: ${{ secrets.AWS_BUCKET_NAME }
 jobs:
   build:
